@@ -1,0 +1,21 @@
+GIT: 
+mkdir foldername > to create folder
+ls > list files
+cd directory name > change directory
+touch filename > create files
+cat filename > read the file
+vi filename > edit the file
+
+esc-->shift+:-->wq! > to save the file
+
+git init . > to initialize the git--it will create one empty .git folder this is hidden folder 
+git status > to check the status
+git add . > adding files from working tree to staging area 
+git commit -m "first commit" > commit the changes from staging area to local repo
+git config --global user.name "name"
+git config --global user.email "email id"
+
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
+
